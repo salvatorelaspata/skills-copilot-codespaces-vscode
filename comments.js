@@ -2,6 +2,7 @@
 
 var express = require('express');
 var router = express.Router();
+var mongoose = require('mongoose');
 var Comment = require('../models/Comment.js');
 
 // GET all comments
